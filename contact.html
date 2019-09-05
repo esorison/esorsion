@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact_style.css'>
+    <script src='contact.js'></script>
+</head>
+<body>
+    <a href="https://google.com" id="mylink">here</a>
+        <div class="container">  
+                <form id="contact" name="contactForm" method="POST" onsubmit="return validateForm()">
+                  <h3>Contact Me</h3>
+           <textfield>
+            <input type="text" id="name" tabindex="1" name="entry.2005620554" placeholder="Your Name" autofocus>
+           </textfield>
+           
+           <textfield>
+            <input type="email" id="email" name="entry.1045781291" tabindex="2" placeholder="Email" required> 
+           </textfield>
+
+           <textfield>
+            <input type="text" id="title" tabindex="3" name="entry.1065046570" placeholder="Title" required>
+           </textfield>
+
+           <textfield>
+            <input type="text" id="message" tabindex="4" name="entry.1166974658" placeholder="Message" required>
+           </textfield>
+
+           <fieldset>
+           <button name="submit" type="submit" id="contact-submit" data-submit="submit">Submit</button>
+           </fieldset>
+       </form>
+   </div> 
+</body>
+</html>
